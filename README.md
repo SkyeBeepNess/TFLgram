@@ -4,7 +4,8 @@ A simple Telegram bot built with **python-telegram-bot** that fetches live line 
 data from the [TfL API](https://api.tfl.gov.uk).
 
 ## Features
-- `/start` — get status for Tube
+- `/get_line_status` — Get the status of all Tube lines
+- `/plan_journey <FROM_POSTCODE> <TO_POSTCODE>` — Creates a journey from <FROM_POSTCODE> to <TO_POSTCODE>
 
 ## Setup
 ```bash
